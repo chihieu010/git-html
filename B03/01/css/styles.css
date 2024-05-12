@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+}
+div.block{
+   text-align: center;
+}
+div.box{
+    border: 2px solid #f0e68c;
+    background-color: #f0e68c;
+    width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+}
+a.social-link{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+a.social-link:nth-child(2) {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+a.twitter {
+    background-color: black;
+}
+a.facebook{
+    background-color: #478cfd;
+    
+}
+a.instagram{
+    background-color: #fd166b;
+}
+a.social-link i{
+    font-size: 60px;
+    color: white;
+    line-height: 100px;
+}
+a.social-link:hover i{
+    color: yellow;
+}
+
