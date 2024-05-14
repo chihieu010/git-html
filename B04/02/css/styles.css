@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div.row{
+    background-color: #fea522;
+    color: white;
+    height: 300px;
+    width: 800px;
+    margin: 20px auto;
+}
+
+div.col1{
+    background-color: #017f0f;
+    border: 3px solid black;
+    width: 30%;
+    float: left;
+}
+div.col2{
+    background-color: #0301fc;
+    border: 3px solid red;
+    width: 70%;
+    float: left;
+}
