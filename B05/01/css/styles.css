@@ -1,0 +1,115 @@
+:root {
+    --padding-porfolio: 105px;
+    --margin-card: 17px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header {
+    height: 70px;
+    background-color: #fff;
+    padding-top: 10px;
+    
+}
+nav {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 34px;
+
+    
+}
+
+nav ul li a {
+    color: #1D1D24;
+    text-decoration: none;
+    
+}
+
+nav ul li:hover a {
+    text-decoration: underline;
+    color: #f9004d;
+}
+
+nav ul li button.btn-contact {
+    border: 2px solid #1D1D24;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 12px 26px;
+    background-color: #fff;
+    
+}
+
+section.hero{
+    height: 700px;
+    background-color: #F8F9FC;
+    padding: 150px 0px;
+    text-align: center;
+
+
+
+}
+img{
+    height: 400px;
+    width: 400px;
+    border: 14px solid #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+div.info{
+    display: inline-block;
+    margin-left: 34px;
+    text-align: left;
+    vertical-align: middle;
+
+
+}
+section div span{
+    font-size: 16px;
+    font-weight: 400;
+}
+h1.title{
+    font-size: 58px;
+    font-weight: 700;
+}
+section div h1 span{
+    font-size: 58px;
+    font-weight: 700;
+    color: #F9004D;
+}
+div h2{
+    font-size: 58px;
+    font-weight: 700;
+}
+section.portfolio{
+    padding: 120px var(--padding-porfolio);
+    font-size: 0px;
+
+}
+section h2{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+div.card{
+    display: inline-block;
+    width: calc((100% - 68px) / 3);
+}
+div.card:nth-child(3n+3)
+{
+   margin: 0px 34px;
+}
