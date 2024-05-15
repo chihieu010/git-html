@@ -53,6 +53,15 @@ div.form-group{
     margin-bottom: 20px;
     color: #151749;
 }
+
+input:focus{
+    outline: none;
+}
+
+select:focus{
+    outline: none;
+}
+
 input[type=text] {
     width: 100%;
     border: none;
