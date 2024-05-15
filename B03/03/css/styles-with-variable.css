@@ -1,0 +1,88 @@
+
+:root {
+    --width: 200px;
+    --height: 50px;
+    --width-box-sm: 100px;
+    --height-box-sm:50px;
+}
+  *{
+    margin: 0px;
+    padding: 0px;
+}
+div.box{
+    border: 0px solid greenyellow;
+    background-color: greenyellow;
+    text-align: center;
+    width: var(--width) ;
+    height: var(--height);
+    line-height: 50px;
+    position: fixed;
+}
+div.bottom-right{
+
+    bottom: 0px;
+    right: 0px;
+}
+div.top-left{
+    top: 0px;
+    left: 0px;
+}
+div.top-right{
+    top: 0px;
+    right: 0px;
+}
+div.bottom-left{
+    bottom: 0px;
+    left: 0px;
+}
+div.top-center{
+  top: 0px;
+  left: 50%;
+  margin-left: calc(var(--width)/2 * -1);
+
+}
+div.bottom-center{
+    bottom: 0px;
+    left: 50%;
+    margin-left: calc(var(--width)/2 * -1);
+  
+}
+div.left-center{
+    top: 50%;
+    left: 0px;
+    margin: calc(var(--height)/2 * -1);
+    
+}
+div.right-center{
+    top: 50%;
+    right: 0px;
+    margin: calc(var(--height)/2 * -1);
+
+}
+div.center-center{
+    top: 50%;
+    left: 50%;
+    margin-left: calc(var(--width)/2 * -1);
+    margin-top: calc(var(--height)/2 * -1);
+}
+div.box-sm{
+    border: 0px solid red;
+    background-color: red;
+    width: var(--width-box-sm);
+    height: var(--height-box-sm);
+    position: absolute;
+}
+div.cbl{
+    right: calc(var(--width-box-sm) * -1);
+}
+div.cbr{
+    left: calc(var(--width-box-sm) * -1);
+}
+div.ctl{
+    top: calc(var(--height-box-sm) * -1);
+    left: calc(var(--width-box-sm) * -1);
+}
+div.ctr{
+    top: calc(var(--height-box-sm) * -1);
+    right: calc(var(--width-box-sm) * -1);
+}

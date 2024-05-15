@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        div.form-group{
+            margin-bottom: 10px;
+
+        }
+        div.form-group label.title{
+            margin-bottom: 10px; 
+            width: 400px;
+            display: inline-block;
+            text-align: right;   
+        }
+        div.form-control{
+            margin-left: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>ĐĂNG KÝ THAM GIA</h1>
+        <p>Sau khi nhận được thông tin đăng ký, ZendVN sẽ liên hệ lại với bạn để có buổi tư vấn lộ trình học phù hợp với bạn nhất tại văn phòng ZendVN (Số 01, Khối A1, Tòa nhà Đạt Gia, 43 Đường Cây Keo, Tam Phú, Thủ Đức, Hồ Chí Minh)</p>
+        
+        <form action="#" method="get">
+            <div class="form-group">
+                <label class="title" for="name">Họ và tên của bạn</label>
+                <input type="text" id="name" name="name">
+            </div>
+            
+            <div class="form-group">
+                <label class="title" for="phone">Số điện thoại di động của bạn</label>
+                <input type="text" id="phone" name="phone">
+            </div>
+
+            <div class="form-group">
+                <label class="title" for="facebook">Địa chỉ facebook của bạn</label>
+                <input type="text" id="facebook" name="facebook">
+            </div>
+
+            <div class="form-group">
+                <label class="title" for="email">Địa chỉ email của bạn</label>
+                <input type="text" id="email" name="email">
+            </div>
+
+            <div class="form-group">
+                <label class="title" for="fname">Vì sao bạn muốn tham gia chương trình này?</label>
+                <textarea name="message" rows="10" cols="30">
+                </textarea>
+
+            <div class="form-group">
+                <label class="title" for="fname">Kiến thức hiện tại của bạn?</label>
+                <textarea name="message" rows="10" cols="30">
+                </textarea>
+            </div>
+
+            <div class="form-group">
+                <label class="title" >Hojc phi</label>
+                <span>28.000.000d</span>
+            </div>
+            <div class="form-group">
+                <label class="title" for="option1">Đối tượng ưu đãi học phí</label>
+                <div class="form-control">
+                    <input type="checkbox" id="option" name="option" value="option1">
+                    <label for="option1"> Giảm thêm 500.000đ cho các bạn học sinh, sinh viên, học viên cũ</label><br>
+                    <input type="checkbox" id="option" name="option" value="option2">
+                    <label for="option2"> Giảm thêm 1.000.000đ cho các bạn đăng ký nhóm 2 người trở lên</label><br>
+                </div> 
+            </div>
+            <div class="form-group">
+                <label class="title" for="option1">Hình thức thanh toán học phí</label>
+                <div class="form-control">    
+                    <input type="checkbox" id="option" name="option" value="option1">
+                    <label for="option1"> Thanh toán 1 lần: 25.000.000đ</label><br>
+
+                    <input type="checkbox" id="option" name="option" value="option1">
+                    <label for="option1"> Thanh toán 2 lần: mỗi lần 13.000.000đ</label><br>
+
+                    <input type="checkbox" id="option" name="option" value="option1">
+                    <label for="option1"> Thanh toán 3 lần: mỗi lần 9.000.000đ</label><br>
+
+                    <input type="checkbox" id="option" name="option" value="option1">
+                    <label for="option1"> Thanh toán theo từng tháng: mỗi tháng 5.600.000đ</label><br>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-control">
+                    <button>Gửi đăng ky</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

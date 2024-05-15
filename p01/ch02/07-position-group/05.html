@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 05</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .block{
+            width: 600px;
+            height: 800px;
+            margin: 50px auto;
+            border: 2px solid red;
+            background-image: url(./image/images.png);
+            
+        }
+        .overlay{
+            width: 100%;
+            height: 100%;
+            background-color: gray;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            opacity: 0.4;
+            filter: alpha(opacity=4.0);
+            z-index: 900;
+        }
+        .white-box{
+            background-color: white;
+            border: 5px solid blue;
+            width: 800px;
+            height: 350px;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            text-align: center;
+            z-index: 1000;
+            margin-top: -175px;
+            margin-left: -400px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="block"></div>
+    <div class="overlay"></div>
+    <div class="white-box">
+        <h1>Lightbox is easy</h1>
+    </div>
+</body>
+</html>

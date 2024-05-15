@@ -1,4 +1,11 @@
-*{
+
+:root {
+    --width: 200px;
+    --height: 50px;
+    --width-box-sm: 100px;
+    --height-box-sm:50px;
+}
+  *{
     margin: 0px;
     padding: 0px;
 }
@@ -6,8 +13,8 @@ div.box{
     border: 0px solid greenyellow;
     background-color: greenyellow;
     text-align: center;
-    width: 200px;
-    height: 50px;
+    width: var(--width) ;
+    height: var(--height);
     line-height: 50px;
     position: fixed;
 }
@@ -31,53 +38,50 @@ div.bottom-left{
 div.top-center{
   top: 0px;
   left: 50%;
-  margin-left: -100px;
+  transform: translateX(-50%);
 
 }
 div.bottom-center{
     bottom: 0px;
     left: 50%;
-    margin-left: -100px;
+    transform: translateX(-50%);
   
 }
 div.left-center{
-    top: 0px;
-    bottom: 0px;
-    margin: auto;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
     
 }
 div.right-center{
-    top: 0px;
-    bottom: 0px;
+    top: 50%;
     right: 0px;
-    margin: auto;
+    transform: translateY(-50%);
 
 }
 div.center-center{
-    top: 0px;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
-    margin: auto;
+    transform: translate(-50%,-50%);
+   
+
 }
 div.box-sm{
     border: 0px solid red;
     background-color: red;
-    width: 100px;
-    height: 50px;
+    width: var(--width-box-sm);
+    height: var(--height-box-sm);
     position: absolute;
 }
 div.cbl{
-    right: -100px;
+    right: calc(var(--width-box-sm) * -1);
 }
 div.cbr{
-    left: -100px;
+    left: calc(var(--width-box-sm) * -1);
 }
 div.ctl{
-    top: -50px;
-    left: -100px;
+    top: calc(var(--height-box-sm) * -1);
+    left: calc(var(--width-box-sm) * -1);
 }
 div.ctr{
-    top: -50px;
-    right: -100px;
+    top: calc(var(--height-box-sm) * -1);
+    right: calc(var(--width-box-sm) * -1);
 }

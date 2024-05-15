@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    counter-reset: section;
+}
+div.container{
+    background-color: #fed049;
+    margin: 20px auto;
+    width: 1000px;
+    font-size: 0;
+    color: white;
+}
+div.item{
+    background-color: #007580;
+    width: calc(25% - 40px);
+    margin: 10px;
+    display: inline-block;
+    font-size: 12px;
+    padding: 10px;
+    
+}
+div.item::before{
+    counter-increment: section;
+    content: counter(section) " ";
+}
+div.item:nth-child(even) {
+    background-color: #282846;
+}
