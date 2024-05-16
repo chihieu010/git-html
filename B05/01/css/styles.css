@@ -41,8 +41,8 @@ nav ul li a {
 }
 
 nav ul li:hover a {
-    text-decoration: underline;
-    color: #f9004d;
+    text-decoration: underline solid #0d99ff;
+    color: #00000;
 }
 
 nav ul li button.btn-contact {
@@ -60,9 +60,6 @@ section.hero {
     background-color: #F8F9FC;
     padding: 150px 0px;
     text-align: center;
-
-
-
 }
 
 img.avatar {
@@ -72,6 +69,7 @@ img.avatar {
     border-radius: 50%;
     display: inline-block;
     vertical-align: middle;
+
 }
 
 div.info {
@@ -79,7 +77,6 @@ div.info {
     margin-left: 34px;
     text-align: left;
     vertical-align: middle;
-
 
 }
 
@@ -91,12 +88,14 @@ section div span {
 h1.title {
     font-size: 58px;
     font-weight: 700;
+
 }
 
 section div h1 span {
     font-size: 58px;
     font-weight: 700;
     color: #F9004D;
+
 }
 
 div h2 {
@@ -115,6 +114,7 @@ section.portfolio h2 {
     font-weight: 700;
     text-align: center;
     margin-bottom: 60px;
+
 }
 
 div.card {
@@ -123,10 +123,12 @@ div.card {
     margin-bottom: 140px;
     text-align: center;
     margin-bottom: 60px;
+
 }
 
 div.card:nth-child(3n+3) {
     margin: 0px 34px;
+
 }
 
 section img {
