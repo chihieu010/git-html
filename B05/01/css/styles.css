@@ -1,14 +1,3 @@
-:root {
-    --padding-porfolio: 105px;
-    --margin-card: 34px;
-}
-
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -152,64 +141,4 @@ footer p {
     font-weight: 400;
     padding: 31px 0px;
     text-align: center;
-}
-@media only screen and (max-width: 600px) {
-    nav ul li button.btn-contact {
-        padding: 6px 12px;
-    }
-    nav ul li {
-        margin-right: 12px;
-    }
-    nav ul li a{
-        font-size: 17px;
-    }
-    section.hero {
-        padding: 30px 0px;
-    }
-    img.avatar {
-        height: 170px;
-        width: 170px;
-    }
-    div.info {
-        margin-left: 17px;
-    }
-    
-    section div span {
-        font-size: 10px;
-    }
-    
-    h1.title {
-        font-size: 18px;
-    }
-
-    section div h1 span {
-        font-size: 18px;
-    
-    }
-    
-    div h2 {
-        font-size: 18px;
-    }
-    section.portfolio {
-        padding: 20px calc(var(--padding-porfolio)/4);
-    }
-    section.portfolio h2 {
-        font-size: 26px;
-        margin-bottom: 20px;
-    
-    }
-    div.card {
-        width: 100%;
-        margin-bottom: 40px;
-    }
-    section.portfolio img {
-        margin-bottom: 10px;
-    }
-    div.card:nth-child(3n+3) {
-        margin: 0px 0px;
-        margin-bottom: 40px;
-    }
-    div.card:nth-last-child(-n+3) {
-        margin-bottom: 40px;
-    }
 }
